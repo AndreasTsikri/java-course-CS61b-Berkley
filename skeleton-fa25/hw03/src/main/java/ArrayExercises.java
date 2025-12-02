@@ -3,7 +3,13 @@ public class ArrayExercises {
      *  Assumes the array has at least 2 elements. */
     public static String secondToLastItem(String[] items) {
         // TODO: Implement this method
-        return null;
+        if(items == null)
+		return null;
+	String s = "";
+
+	for(var i = 1 ; i < items.length;i++)
+		s+=items[i];
+	return s;
     }    
 
     /** Returns the difference between the minimum and maximum item in the given array */
