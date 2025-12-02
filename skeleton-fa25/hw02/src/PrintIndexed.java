@@ -5,6 +5,15 @@ public class PrintIndexed {
      */
    public static void printIndexed(String s) {
       // TODO: Fill in this function
+      int l = s.length();
+      int i = 1;
+      String res = "";
+
+      for(char c:s.toCharArray()){
+      	res = res + c + (l - i);
+	i++;
+      }
+      IO.println("The string with reversed index is : " + res);
    }
 
    public static void main(String[] args) {
