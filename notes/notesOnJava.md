@@ -5,14 +5,14 @@
 > - ArrayLists : Linear resizable, like arrays. Single Linked List implementation. Fast get, slow insert. Not Thread safe(NOT synchronized
 > - HashLists  : Linear resizable, like array. Double Linked List implementation. fast get, slow insert. Not Thead safe(NOT synchronized)
 
-### :memo: Sets (almost Un-Ordered Collections)
+### :family: Sets (almost Un-Ordered Collections)
 > - No duplicates -- Each element is present only one time
 > - HashSet --> unordered | TreeSet --> ordered 
 >
 >
 >
 
-### :memo: Maps(
+### :earth_americas: Maps(
 > - Key Value pairs -- like Dict in python
 > - HashMap --> unordered vs TreeMap --> ordered (keeps the keys sorted!)
 >
