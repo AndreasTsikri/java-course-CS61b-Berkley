@@ -6,10 +6,15 @@
 > - HashLists  : Linear resizable, like array. Double Linked List implementation. fast get, slow insert. Not Thead safe(NOT synchronized)
 
 ### :memo: Sets (almost Un-Ordered Collections)
+> - No duplicates -- Each element is present only one time
+> - HashSet --> unordered | TreeSet --> ordered 
 >
 >
 >
->
+
+### :memo: Maps(
+> - Key Value pairs -- like Dict in python
+> - HashMap --> unordered vs TreeMap --> ordered (keeps the keys sorted!)
 >
 
 ### Gen Notes
