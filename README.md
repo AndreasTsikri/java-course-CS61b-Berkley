@@ -16,12 +16,17 @@ mvn dependency:get \
 ```
 This is downloading the jar at the present folder but i will just move it through linux to execute each test case when i need it!:
 
-- 3. Compile the "src" and "test" java classes from .java -> .class :
-```bash
-javac -cp junit-platform-console-standalone-6.1.0-M1.jar src/main/java/*.java test/ArrayExercisesTest.java
-```
+- 3. Make sure that test and implementations are on the same package(here "implementations")
 
-- 3. Run the java command to execute the tests on "test" folder:
+- 4. Compile the "src" and "test" java classes (from .java -> .class) and make sure they are on the same folder (out):
+```bash
+javac -cp junit-platform-console-standalone-6.1.0-M1.jar -d out src/main/java/implementations/*.java test/*.java
+```
+or for only one project:
+```bash
+javac -cp junit-platform-console-standalone-6.1.0-M1.jar -d out src/main/java/implementations/ArrayExercises.java test/ArrayExercisesTest.java 
+```
+- 5. Run the java command to execute the tests on "test" folder:
 ```bash
 java -jar junit-platform-console-standalone-6.1.0-M1.jar execute --class-path test --scan-class-path
 ```

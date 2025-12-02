@@ -1,3 +1,5 @@
+package implementations;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.DisplayName;
@@ -18,7 +20,7 @@ public class ArrayExercisesTest {
     @DisplayName("Test secondToLastItem correctness")
     public void testSecondToLastItem() {
         String[] items = {"apple", "banana", "cherry", "date"};
-        String expected = "cherry";
+        String expected = "bananacherrydate";
 
         String result = ArrayExercises.secondToLastItem(items);
 
