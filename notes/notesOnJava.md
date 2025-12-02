@@ -12,3 +12,8 @@
 >
 >
 >
+
+
+Arrays.asList(1,2,null) --> mutable elements ( Set(1,10) OK)
+
+List.of(1,2,3) --> immutable elements (Set(1,10) FAIL)
