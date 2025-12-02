@@ -3,8 +3,8 @@ public class StarTriangle5 {
      * Prints a right-aligned triangle of stars ('*') with 5 lines.
      * The first row contains 1 star, the second 2 stars, and so on. 
      */
-   private static final String sstar= "*****";
-   private static final String ssp= "     ";
+   static final String sstar= "*****";
+   static final String ssp= "     ";
 
    public static String getFromStr(String str, int i){
    
